@@ -1,0 +1,26 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": false
+  },
+  "packageName": "com.cyld.Braindead",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "dc0d40aa-d251-4388-85f8-c4ae49cea91d",
+  "title": "Braindead",
+  "webOrientation": "auto"
+}

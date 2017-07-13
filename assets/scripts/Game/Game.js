@@ -20,7 +20,7 @@ cc.Class({
         var posArray = [-247, -80, 80, 240];
         var prefab = self.monsterPrefab[0];
 
-        this.node.on(cc.Node.EventType.MOUSE_DOWN, function () {
+        this.node.on(cc.Node.EventType.TOUCH_START, function () {
             for (var k in posArray) {
                 var count = randomNToM(10, 20);
                 for (var j = 0; j < count; j ++) {

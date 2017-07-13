@@ -14,8 +14,8 @@ cc.Class({
     },
 
     onLoad: function () {
-        this.node.on(cc.Node.EventType.MOUSE_DOWN, this.beginAttack.bind(this));
-        this.node.on(cc.Node.EventType.MOUSE_UP, this.endAttack.bind(this));
+        this.node.on(cc.Node.EventType.TOUCH_START, this.beginAttack.bind(this));
+        this.node.on(cc.Node.EventType.TOUCH_END, this.endAttack.bind(this));
     },
 
     launch: function () {
