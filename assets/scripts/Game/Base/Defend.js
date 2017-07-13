@@ -4,13 +4,12 @@
 
 var BaseComponent = require("BaseComponent");
 
+// 防守类型
 cc.Class({
     extends: BaseComponent,
 
     properties: {
-        HP : 0,     // 生命值
-        ATK: 0,     // 攻击力
-        speed: 0    // 速度
+        HP : 0     // 生命值
     },
 
     ctor: function () {
@@ -21,11 +20,7 @@ cc.Class({
 
     },
 
-    walk: function () {
-
-    },
-
-    run: function () {
+    update: function (dt) {
 
     }
 });

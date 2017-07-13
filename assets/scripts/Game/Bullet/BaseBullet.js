@@ -1,8 +1,11 @@
 /**
  * Created by Administrator on 2017/7/10.
  */
+
+var Attack = require("Attack");
+
 cc.Class({
-    extends: cc.Component,
+    extends: Attack,
 
     properties: {
         orientation: 0      // 朝向

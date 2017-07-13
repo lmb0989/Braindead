@@ -8,4 +8,4 @@ var onStart = function () {
     cc.log("cc.game.onStart !!!!!");
 }
 
-cc.game.run(null, onStart);
+onStart();

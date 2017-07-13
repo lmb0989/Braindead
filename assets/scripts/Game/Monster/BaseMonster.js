@@ -1,7 +1,7 @@
-var BaseComponent = require("BaseComponent");
+var Biology = require("Biology");
 
 cc.Class({
-    extends: BaseComponent,
+    extends: Biology,
 
     properties: {},
 

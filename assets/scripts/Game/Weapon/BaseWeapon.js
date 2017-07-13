@@ -1,8 +1,12 @@
 /**
  * Created by Administrator on 2017/7/10.
  */
-cc.Class({
-    extends: cc.Component,
+
+var Assist = require("Assist")
+
+// 武器基类
+var BaseWeapon = cc.Class({
+    extends: Assist,
 
     properties: {
         launchPower: 0          // 发射力
